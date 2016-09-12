@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+body {
+	background: #EDEDED;
+	color: #EDEDED;
+}
+header {
+	color: #494949;
+}
+.jumbotron{
+	background: #494949;
+	
+}
+.jumbotron #quote, .jumbotron #author  {
+	font-family: 'Quicksand', sans-serif;
+	line-height: .8em;
+	letter-spacing: 1.2;
+}
+
+.animationOne {
+	animation: backgroundChangeOne 2000ms ease 1;
+	animation-fill-mode: forwards;
+}
+
+.animationTwo {
+	animation: backgroundChangeTwo 2000ms ease 1;
+	animation-fill-mode: forwards;
+}
+.animationThree {
+	animation: backgroundChangeThree 200ms ease 1;
+	animation-fill-mode: forwards;
+}
+/*keyframes*/
+@keyframes backgroundChangeOne {
+	0% {
+		background: #EDEDED;
+		color: #EDEDED;
+	}
+	100% {
+		background: tomato;
+		color: tomato;
+	}
+}
+
+@keyframes backgroundChangeTwo {
+	0% {
+		background: tomato;
+		color: tomato;
+	}
+	100% {
+		background: #EDEDED;
+		color: #EDEDED;
+	}
+}
+@keyframes backgroundChangeThree {
+	0%{
+		background: #494949;
+	}
+	100%{
+		background: #EDEDED;
+	}
+}
+

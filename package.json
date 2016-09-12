@@ -1,0 +1,18 @@
+{
+  "name": "random_quote_machine_jquery",
+  "version": "1.0.0",
+  "description": "Free Code Academy Random Quote Machine with jQuery",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "freecodecamp"
+  ],
+  "author": "kelly gibbens",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^2.2.2"
+  }
+}
